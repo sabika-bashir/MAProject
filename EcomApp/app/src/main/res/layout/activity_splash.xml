@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_linear"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/appColor"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's"
+        android:textSize="31dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:paddingRight="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOP"
+        android:textSize="31dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+</LinearLayout>
+</LinearLayout>
